@@ -1,3 +1,4 @@
+#this is the climate analysis script 
 import sys
 import temp_conversion
 import signal
@@ -28,3 +29,4 @@ for line in climate_data:
             print(str(celsius)+", "+str(kelvin))
 
 #todo
+#add rainfall processing module 
